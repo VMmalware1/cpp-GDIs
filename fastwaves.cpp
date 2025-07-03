@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <ctime>
 
-DWORD WINAPI fastwave(LPVOID lpvd) {
+DWORD WINAPI fastwave(LPVOID lpvd) { //credits to pankoza2-pl for slow sines, but i recoded it to FAST!
 	HDC desk = GetDC(0);
 	int sw = GetSystemMetrics(SM_CXSCREEN);
 	int sh = GetSystemMetrics(SM_CYSCREEN);
